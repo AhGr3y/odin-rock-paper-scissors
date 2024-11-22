@@ -8,3 +8,9 @@ function getComputerChoice() {
         return "scissors";
     }
 }
+
+function getHumanChoice() {
+    const choice = prompt("Type one of these options: 'rock', 'paper', or 'scissors'.");
+    const choiceLowercase = choice.toLowerCase();
+    return choiceLowercase;
+}
